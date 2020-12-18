@@ -1,0 +1,42 @@
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+    margin: 0 2em 2em 0;
+    padding: 0.5em 0 0.5em 0;
+    background-color: #99f;
+    border: 1px solid blue;
+}
+
+.menu .head {
+    margin-left: 0.5em;
+    color: #333;
+}
+
+.menu li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a, .menu ul li a:visited {
+    display: block;
+    color: #309;
+    background-color: #99f;
+    text-decoration: none;
+    margin: 0.2em;
+    padding-left: 1em;
+}
+
+#sidebar {
+    float: right;
+    background-color: #eee;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 0.5em 0.5em 0.5em;
+    margin-left: 1em;
+    width: 15em;
+    max-width: 40%;
+}

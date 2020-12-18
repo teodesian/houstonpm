@@ -1,0 +1,33 @@
+<ul class="menu" id="mainmenu">
+    <li class="curr"><a href="/index.html">Home</a></li>
+    <li><a href="http://houston.pm.org/mailman/listinfo/houston_houston.pm.org">Join Mailing List</a></li>
+    <li><a href="/about.html">About Us</a></li>
+    <li><a href="/meetings.html">Meetings</a></li>
+    <li><a href="/sponsors.html">Sponsors</a></li>
+    <li><a href="/faqs.html">FAQ</a></li>
+    <li><a href="/talks/mostrecent.html">Most Recent Talk</a></li>
+    <li><a href="/talks/index.html">Talks Archive</a></li>
+    <li><a href="/projects/index.html">Group Projects</a></li>
+<br /><br />
+    <li class="head">External Resources</li>
+    <li><a href="http://padre.perlide.org/" title="perl editor">Perl IDE</a></li>
+    <li><a href="http://blogs.perl.org/">Perl Blogs</a></li>
+    <li><a href="http://www.perl.com/pub/2000/01/10PerlMyths.html">Ten Perl
+        Myths</a></li>
+    <li><a href="http://www.perlmonks.org/">The Perl Monastery</a></li>
+    <li><a href="http://www.cpan.org/">CPAN</a></li>
+    <li><a href="http://metacpan.org/">Meta CPAN</a></li>
+    <li><a href="http://www.perl.org/">The Perl Directory</a></li>
+    <li><a href="http://www.perl.com/">Perl.com</a></li>
+    <li><a href="http://perlmaven.com/">Perl Maven</a></li>
+    <li class="head">News</li>
+    <li><a href="http://perlbuzz.com/">Perl Buzz</a></li>
+    <li><a href="http://perlsphere.net/">Perlsphere Aggregated Perl news</a></li>
+    <li><a href="http://perlweekly.com/">Perl Weekly news</a></li>
+    <li class="head">Tutorials</li>
+    <li><a href="http://perl-tutorial.org/">A Collection</a></li>
+    <li><a href="http://learn.perl.org/tutorials/">Perl tutorials</a></li>
+    <li><a href="http://onyxneon.com/books/modern_perl/">Modern Perl Book</a></li>
+    <li><a href="http://perlmaven.com/perl-tutorial">Perl Maven Tutorial</a></li>
+    <li><a href="http://perlmeme.org/">Perl Meme</a></li>
+</ul>
