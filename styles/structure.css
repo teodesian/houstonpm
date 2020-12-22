@@ -1,5 +1,6 @@
 #leftbar {
     width:14rem;
+    padding-top:6rem;
     margin-left:1rem;
 }
 
@@ -17,7 +18,6 @@
 
 #kontainer {
     padding-bottom: 5rem;
-    padding-top: 2rem;
     font-family: arial, helvetica, sans-serif;
 }
 

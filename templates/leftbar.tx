@@ -1,6 +1,6 @@
 <ul class="menu" id="mainmenu">
-    <li class="curr"><a href="/index.html">Home</a></li>
-    <li><a href="http://houston.pm.org/mailman/listinfo/houston_houston.pm.org">Join Mailing List</a></li>
+    <li class="curr"><a href="/">Home</a></li>
+    <li><a href="http://houston.pm.org/mailman/listinfo/houston.pm_houston.pm.org">Join Mailing List</a></li>
     <li><a href="/about.html">About Us</a></li>
     <li><a href="/meetings.html">Meetings</a></li>
     <li><a href="/sponsors.html">Sponsors</a></li>
@@ -8,7 +8,7 @@
     <li><a href="/talks/mostrecent.html">Most Recent Talk</a></li>
     <li><a href="/talks/index.html">Talks Archive</a></li>
     <li><a href="/projects/index.html">Group Projects</a></li>
-<br /><br />
+    <br />
     <li class="head">External Resources</li>
     <li><a href="http://padre.perlide.org/" title="perl editor">Perl IDE</a></li>
     <li><a href="http://blogs.perl.org/">Perl Blogs</a></li>
