@@ -1,12 +1,12 @@
 <h1 class="subhead">Houston Perl Mongers Group</h1>
 
 <div id="sidebar">
-    <h1 class="heading">What's New <a class="rss" href="/blog?rss=1"></a></h1>
+    <h1 class="heading">What's New <a class="rss" href="/posts?format=rss&tag=presentations"></a></h1>
   <p>Meeting notes Nov, 2020 are on-line</p>
   <h1 class="heading">Next Meeting</h1>
   <dl>
-    <dt><time datetime="2020-12-10">December 10, 2020</time></dt>
-    <dd><a href="announce_meeting.html" target="_blank" rel="noopener"><em>tCMS : yet another CMS written in Perl</em></a> with George S. Baugh on Zoom</dd>
+    <dt><time datetime="2021-01-14">January 14, 2021</time></dt>
+    <dd><a href="announce_meeting.html" target="_blank" rel="noopener"><em>Atomic Operations in Unix (and Perl)</em> with Brett Estrade on Zoom</dd>
   </dl>
 
 </div>

@@ -1,0 +1,25 @@
+<h1 class="subhead">Next Meeting</h1>
+
+<p>The December meeting will be held on Zoom.</p>
+
+<ul style="list-style-type: none">
+    <li>Time: December 10, 2020 06:00 PM Central Time (US and Canada)</li>
+    <li>Join Zoom Meeting <a href="https://us02web.zoom.us/j/920069702">https://us02web.zoom.us/j/920069702</a></li>
+    <li>Meeting ID: 920 069 702</li>
+    <li>Find your local number: <a href="https://us02web.zoom.us/u/kijzdeGpk">https://us02web.zoom.us/u/kijzdeGpk</a></li>
+</ul>
+
+<p>The passcode is available by executing the following Perl code:</p>
+
+<pre><code>
+print +(0b1000100).((3&lt;&lt;2)*10).(010)
+</code></pre>
+
+<p>the result will be your 6 digit passcode.</p>
+
+<p>The idea for Perl code to generate the passcode was stolen from example for SanDiego.pm meeting by $Bob: <a href="http://blogs.perl.org/users/bob/2020/07/sandiegopm-meeting-tuesday-july-14th-2020.html" target="_blank">blog post</a>.
+
+</p><p>This month, Brett Estrade will present <em>Atomic Operations in Unix (and Perl)</em>.</p>
+
+<p>Brett Estrade (ESTRABD on CPAN)</p>
+
