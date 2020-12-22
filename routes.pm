@@ -51,6 +51,10 @@ our %routes = (
         callback => \&Trog::Routes::HTML::posts,
         data     => { tag => ['presentations'] },
     },
+    '/styles/houston.css' => {
+        method   => 'GET',
+        callback => sub {Trog::Routes::HTML::redirect_permanent('/themes/houston.pm/styles/houston.css') },
+    },
 );
 
 my $processor = Text::Xslate->new(
@@ -59,7 +63,7 @@ my $processor = Text::Xslate->new(
 
 my %paths = (
     '/meetings.html'         => 'Past & Upcoming Meetings',
-    '/announce_meeting.html' => 'Latest Meeting', 
+    '/announce_meeting.html' => 'Latest Meeting',
 );
 
 sub path_to_tile ($path) {
