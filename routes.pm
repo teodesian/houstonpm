@@ -55,6 +55,14 @@ our %routes = (
         method   => 'GET',
         callback => sub {Trog::Routes::HTML::redirect_permanent('/themes/houston.pm/styles/houston.css') },
     },
+    '/talks/(.*)' => {
+        method   => 'GET',
+        callback => sub {
+            my ($query) = @_;
+            Trog::Routes::HTML::redirect_permanent("/assets/talks/$query->{fragment}")
+        },
+        captures => ['fragment'],
+    },
 );
 
 my $processor = Text::Xslate->new(
