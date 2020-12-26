@@ -20,13 +20,13 @@ our %routes = (
     },
     '/meetings.html' => {
         method   => 'GET',
-        callback => \&Trog::Routes::HTML::posts,
-        data     => { tag => ['meetings'] },
+        callback => \&Trog::Routes::HTML::series,
+        data     => { id => 1609008204, in_series => 1 },
     },
     '/announce_meeting.html' => {
         method   => 'GET',
-        callback => \&Trog::Routes::HTML::posts,
-        data     => { tag => ['meetings'], limit => 1 },
+        callback => \&Trog::Routes::HTML::series,
+        data     => { id => 1609008204, in_series => 1, limit => 1 },
     },
     '/sponsors.html' => {
         method   => 'GET',
@@ -38,8 +38,8 @@ our %routes = (
     },
     '/projects/index.html' => {
         method   => 'GET',
-        callback => \&Trog::Routes::HTML::posts,
-        data     => { tag => ['project'] },
+        callback => \&Trog::Routes::HTML::series,
+        data     => { id => 1608661217, in_series => 1 },
     },
     '/talks/mostrecent.html' => {
         method   => 'GET',
@@ -48,8 +48,8 @@ our %routes = (
     },
     '/talks/index.html' => {
         method   => 'GET',
-        callback => \&Trog::Routes::HTML::posts,
-        data     => { tag => ['presentations'] },
+        callback => \&Trog::Routes::HTML::series,
+        data     => { id => 1608661368, in_series => 1 },
     },
     '/styles/houston.css' => {
         method   => 'GET',
@@ -62,10 +62,6 @@ our %routes = (
             Trog::Routes::HTML::redirect_permanent("/assets/talks/$query->{fragment}")
         },
         captures => ['fragment'],
-    },
-    '/meetings.html' => {
-        method => 'GET',
-        callback => \&meetings,
     },
 );
 
@@ -90,16 +86,6 @@ sub sponsors ($args, $render_cb) {
 
 sub faq ($args, $render_cb) {
     my $out = $processor->render('faq.tx');
-    return Trog::Routes::HTML::index($args,$render_cb, $out);
-}
-
-sub meetings ($args, $render_cb) {
-    my $out = $processor->render('meetings.tx');
-    return Trog::Routes::HTML::index($args,$render_cb, $out);
-}
-
-sub announce ($args, $render_cb) {
-    my $out = $processor->render('announce.tx');
     return Trog::Routes::HTML::index($args,$render_cb, $out);
 }
 
