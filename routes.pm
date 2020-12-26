@@ -43,8 +43,8 @@ our %routes = (
     },
     '/talks/mostrecent.html' => {
         method   => 'GET',
-        callback => \&Trog::Routes::HTML::posts,
-        data     => { tag => ['presentations'], limit => 1 },
+        callback => \&Trog::Routes::HTML::series,
+        data     => { id => 1608661368, in_series => 1, limit => 1 },
     },
     '/talks/index.html' => {
         method   => 'GET',
@@ -68,16 +68,6 @@ our %routes = (
 my $processor = Text::Xslate->new(
     path => 'www/themes/houston.pm/templates',
 );
-
-my %paths = (
-    '/talks/index.html'      => 'Past Meetings',
-    '/talks/mostrecent.html' => 'Latest Meeting',
-    '/projects/index.html'   => 'Group Projects',
-);
-
-sub path_to_tile ($path) {
-    return $paths{$path} ? $paths{$path} : $path;
-}
 
 sub sponsors ($args, $render_cb) {
     my $out = $processor->render('sponsors.tx');
