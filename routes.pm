@@ -12,6 +12,7 @@ use lib 'lib';
 use Trog::Routes::HTML;
 
 our $default_title = 'Houston Perl Mongers';
+our $show_madeby = 1;
 
 our %routes = (
     '/about.html' => {
