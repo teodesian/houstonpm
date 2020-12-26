@@ -1,0 +1,14 @@
+#kontent {
+    padding: 0px;
+    height:100%;
+    width:100%;
+    border-radius: 0px;
+    box-shadow:none;
+    background-color: #eee;
+}
+body {
+    background-color: #eee;
+}
+#paginator, .divider {
+    display:none;
+}
