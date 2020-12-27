@@ -1,7 +1,7 @@
 <h1 class="subhead">Houston Perl Mongers Group</h1>
 
 <div id="sidebar">
-    <iframe id="sideframe" src="http://localhost:5000/announce_meeting.html?embed=1"></iframe>
+    <iframe id="sideframe" src="/announce_meeting.html?embed=1"></iframe>
 </div>
 
 <p>This is the branch of the <a href="http://www.pm.org/">Perl Mongers</a>
