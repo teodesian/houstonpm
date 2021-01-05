@@ -12,7 +12,14 @@ use lib 'lib';
 use Trog::Routes::HTML;
 
 our $default_title = 'Houston Perl Mongers';
+our $default_image = 'img/icon/houstonpm.png';
+our $display_name  = 'Houston Perl Mongers';
+our $description   = 'Houston Perl Mongers';
+our $default_tags  = 'houston.pm, houston, perl, mongers, Net::Jabber::Bot, Device::USB::LibUSB';
+
 our $show_madeby = 1;
+our $twitter_account = 'houstonpm';
+our $fb_app_id       = 'bogus';
 
 our %routes = (
     '/about.html' => {
