@@ -21,6 +21,10 @@
     font-family: arial, helvetica, sans-serif;
 }
 
+#kontent {
+    padding-top: 6rem;
+}
+
 #midtitle {
     text-align:left;
     font-family: arial, helvetica, sans-serif;
