@@ -29,12 +29,12 @@ our %routes = (
     '/meetings.html' => {
         method   => 'GET',
         callback => \&Trog::Routes::HTML::series,
-        data     => { id => 1609008204, in_series => 1 },
+        data     => { id => 'eb64957c-14d7-11ec-852a-f1cd345321ea', in_series => 1 },
     },
     '/announce_meeting.html' => {
         method   => 'GET',
         callback => \&Trog::Routes::HTML::series,
-        data     => { id => 1609008204, in_series => 1, limit => 1 },
+        data     => { id => 'eb64957c-14d7-11ec-852a-f1cd345321ea', in_series => 1, limit => 1 },
     },
     '/sponsors.html' => {
         method   => 'GET',
@@ -47,17 +47,17 @@ our %routes = (
     '/projects/index.html' => {
         method   => 'GET',
         callback => \&Trog::Routes::HTML::series,
-        data     => { id => 1608661217, in_series => 1 },
+        data     => { id => 'e9941181-14d7-11ec-852a-c5617e3415e6', in_series => 1 },
     },
     '/talks/mostrecent.html' => {
         method   => 'GET',
         callback => \&Trog::Routes::HTML::series,
-        data     => { id => 1608661368, in_series => 1, limit => 1 },
+        data     => { id => 'e91ce133-14d7-11ec-852a-a69c982403ec', in_series => 1, limit => 1 },
     },
     '/talks/index.html' => {
         method   => 'GET',
         callback => \&Trog::Routes::HTML::series,
-        data     => { id => 1608661368, in_series => 1 },
+        data     => { id => 'e91ce133-14d7-11ec-852a-a69c982403ec', in_series => 1 },
     },
     '/styles/houston.css' => {
         method   => 'GET',
