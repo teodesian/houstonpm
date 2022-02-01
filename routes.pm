@@ -77,12 +77,12 @@ my $processor = Text::Xslate->new(
     path => 'www/themes/houston.pm/templates',
 );
 
-sub sponsors ($args, $render_cb) {
+sub sponsors ($args) {
     my $out = $processor->render('sponsors.tx');
     return Trog::Routes::HTML::index($args,$render_cb, $out);
 }
 
-sub faq ($args, $render_cb) {
+sub faq ($args) {
     my $out = $processor->render('faq.tx');
     return Trog::Routes::HTML::index($args,$render_cb, $out);
 }
