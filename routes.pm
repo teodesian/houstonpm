@@ -79,12 +79,12 @@ my $processor = Text::Xslate->new(
 
 sub sponsors ($args) {
     my $out = $processor->render('sponsors.tx');
-    return Trog::Routes::HTML::index($args,$render_cb, $out);
+    return Trog::Routes::HTML::index($args, $out);
 }
 
 sub faq ($args) {
     my $out = $processor->render('faq.tx');
-    return Trog::Routes::HTML::index($args,$render_cb, $out);
+    return Trog::Routes::HTML::index($args, $out);
 }
 
 1;
